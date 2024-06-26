@@ -28,5 +28,14 @@ public class MarksArray
         System.out.println(marksList.contains(99));
         System.out.println(marksList.indexOf(100));
 
+        ArrayList<Integer> marksList1 = new ArrayList<>();
+        marksList1.add(60);
+        marksList1.add(61);
+        marksList1.add(62);
+
+        marksList.addAll(0,marksList1);
+        System.out.println(marksList);
+
+
     }
 }

@@ -10,6 +10,7 @@ public class MarksLinkedList
         marksList.add(79);
         marksList.add(89);
         marksList.add(99);
+        //marksList.set(0,59);replaces the element
         System.out.println(marksList);//79,89,99
 
         marksList.push(100);
